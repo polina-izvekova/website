@@ -116,9 +116,9 @@
 	  var width = parseInt($(items[i]).attr("data-pycs-width"));
 	  var height = parseInt($(items[i]).attr("data-pycs-height"));
 	  var ar = width/height;
-	  var new_width = ar * settings.idealHeight;
+	  var new_width = ar * (window.outerHeight / 2);
 	  $(items[i]).attr("data-pycs-vwidth", new_width);
-	  $(items[i]).attr("data-pycs-vheight", settings.idealHeight);
+	  $(items[i]).attr("data-pycs-vheight", (window.outerHeight / 2));
 	  $(items[i]).attr("data-pycs-aspect-ratio", Math.round(ar*100)/100);
 	  aspect_ratios.push(parseInt(ar*100));
 	}
