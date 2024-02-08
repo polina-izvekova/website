@@ -111,14 +111,16 @@
 	idealHeight.
       */
       var get_aspect_ratios = function(items){
+      var idealHeight = Math.round(window.outerHeight > window.outerWidth ? (window.outerHeight / 2) : (window.outerHeight / 2.5));
+
 	aspect_ratios = [];
 	for(var i=0; i<items.length; i++){
 	  var width = parseInt($(items[i]).attr("data-pycs-width"));
 	  var height = parseInt($(items[i]).attr("data-pycs-height"));
 	  var ar = width/height;
-	  var new_width = ar * (window.outerHeight / 2);
+	  var new_width = ar * idealHeight;
 	  $(items[i]).attr("data-pycs-vwidth", new_width);
-	  $(items[i]).attr("data-pycs-vheight", (window.outerHeight / 2));
+	  $(items[i]).attr("data-pycs-vheight", idealHeight);
 	  $(items[i]).attr("data-pycs-aspect-ratio", Math.round(ar*100)/100);
 	  aspect_ratios.push(parseInt(ar*100));
 	}
