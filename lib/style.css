@@ -1,0 +1,13 @@
+.glightbox-clean .gslide-title {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.glightbox-mobile .glightbox-container .gslide-description {
+  padding-bottom: 30px;
+}
+
+
+.gallery img.picture {
+  color: white;
+}
