@@ -1,6 +1,10 @@
+.glightbox-clean .gdesc-inner {
+  padding: 10px 20px;
+}
+
 .glightbox-clean .gslide-title {
   margin-top: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 4px;
 }
 
 .glightbox-mobile .glightbox-container .gslide-description {
