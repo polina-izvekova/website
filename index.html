@@ -352,10 +352,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Initialize GLightbox
     // NOTE: The 'overflow: hidden;' applied to the body by the lightbox script creates a new block formatting context (BFC).
     // This prevents margin collapse between child elements inside the body.
-    const lightbox = GLightbox({
-      touchNavigation: true,
-      zoomable: true
-    });
+    const lightbox = GLightbox();
   });
 });
 </script>

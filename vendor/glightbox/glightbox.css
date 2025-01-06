@@ -608,13 +608,13 @@ iframe.wait-autoplay {
 }
 
 .gzoomIn {
-  -webkit-animation: gzoomIn 0.3s ease;
-  animation: gzoomIn 0.3s ease;
+  -webkit-animation: gzoomIn 0.5s ease;
+  animation: gzoomIn 0.5s ease;
 }
 
 .gzoomOut {
-  -webkit-animation: gzoomOut 0.3s ease;
-  animation: gzoomOut 0.3s ease;
+  -webkit-animation: gzoomOut 0.5s ease;
+  animation: gzoomOut 0.5s ease;
 }
 
 @-webkit-keyframes lightboxLoader {
