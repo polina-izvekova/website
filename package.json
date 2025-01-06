@@ -1,0 +1,16 @@
+{
+  "name": "izvekova",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "npx http-server -p 8000 -c-1 & tailwindcss -i ./src/style.css -o ./css/style.css --watch",
+    "build": "tailwindcss -i ./src/style.css -o ./css/style.css"
+  },
+  "author": "",
+  "license": "",
+  "description": "",
+  "devDependencies": {
+    "tailwindcss": "^3.4.15"
+  },
+  "dependencies": {
+  }
+}

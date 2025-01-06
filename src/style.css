@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.glightbox-clean .gdesc-inner {
+  padding: 10px 20px;
+}
+
+.glightbox-clean .gslide-title {
+  margin-top: 10px;
+  margin-bottom: 4px;
+}
+
+.glightbox-mobile .glightbox-container .gslide-description {
+  padding-bottom: 30px;
+}
+
+body {
+  background: #444;
+}
+
+.galleryContainer {
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap onto the next line */
+}
+
+.galleryContainer .galleryElement {
+  display: block;
+  background: #666;
+  margin: 3px 0px;
+}
+
+.galleryContainer .galleryElement img {
+  display: block;
+}
+
+@media (min-width: 480px) {
+  .galleryContainer {
+    margin: 0px 3px;
+  }
+
+  .galleryContainer .galleryElement {
+    margin: 3px;
+  }
+}
