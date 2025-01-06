@@ -104,8 +104,8 @@
       var get_aspect_ratios = function (items) {
         // Calculate ideal height based on screen orientation
         var idealHeight = Math.round(window.innerHeight > window.innerWidth ? // Compares the height and width of the window.
-                                     (window.innerHeight / 2) :   // The window is taller than it is wide (portrait mode).
-                                     (window.innerHeight / 2.5)); // The window is wider than it is tall (landscape mode).
+                                     (window.innerHeight * 0.7) :   // The window is taller than it is wide (portrait mode).
+                                     (window.innerHeight * 0.4)); // The window is wider than it is tall (landscape mode).
         var aspect_ratios = [];
 
         for (var i = 0; i < items.length; i++) {
