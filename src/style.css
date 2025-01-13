@@ -15,10 +15,6 @@
   padding-bottom: 30px;
 }
 
-body {
-  background: #444;
-}
-
 .galleryContainer {
   display: flex;
   flex-wrap: wrap; /* Allow items to wrap onto the next line */
@@ -26,7 +22,7 @@ body {
 
 .galleryContainer .galleryElement {
   display: block;
-  background: #666;
+  background: rgb(64, 64, 64);
   margin: 3px 0px;
 }
 
