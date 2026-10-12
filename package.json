@@ -11,6 +11,5 @@
   "devDependencies": {
     "tailwindcss": "^3.4.15"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }

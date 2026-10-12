@@ -12,36 +12,79 @@
   <script src="/vendor/glightbox/glightbox.js"></script>
 
   <link rel="stylesheet" href="/vendor/glightbox/glightbox.css">
-  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/style.css?v=20261012-2">
+  <link rel="stylesheet" href="/css/site.css?v=20261012-4">
 
   <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
   <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png">
 </head>
-<body class="bg-neutral-800 text-white">
+<body class="site-page homepage">
 
-  <div class="px-4 lg:px-8 py-14 lg:py-28">
+  <header class="site-header">
+    <a class="site-name" href="/">Polina Izvekova</a>
+    <nav aria-label="Main navigation">
+      <a href="/" aria-current="page">Home</a>
+      <a href="/projects/">Projects</a>
+      <a href="/about/">About</a>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section id="after-the-season" class="season-feature" aria-labelledby="season-title">
+      <div class="season-hero">
+        <div class="season-copy">
+          <p class="season-eyebrow">Featured project <span>2026</span></p>
+          <h2 id="season-title">After the<br>Season</h2>
+          <p class="season-location">Hotel Mir · Zvonačka Banja, Serbia</p>
+          <p class="season-lead">After the Season explores spaces whose existence is tied to a particular way of life and what happens to them when that life comes to an end. In the first phase of the project I return human presence there.</p>
+          <div class="season-text">
+            <p>A resort is an environment organised around temporary inhabitation. Its architecture, infrastructure and social rules are created for a particular way of life that begins, continues for a limited time, and then comes to an end.</p>
+            <p>The project began in April 2026 with first field research at Hotel Mir, a former resort complex in Zvonačka Banja, eastern Serbia.</p>
+            <p>The hotel has been abandoned for around twenty years, but a significant part of its architecture has survived, although many elements of its infrastructure have disappeared over time.</p>
+          </div>
+        </div>
+        <figure class="season-main-image">
+          <a href="/swim/IMG_4383.jpg" class="glightbox" data-gallery="after-the-season" aria-label="View full photograph of the swimmer installation at Hotel Mir">
+            <img src="/swim/optimized/hero-960.webp" srcset="/swim/optimized/hero-640.webp 640w, /swim/optimized/hero-960.webp 960w, /swim/optimized/hero-1440.webp 1440w" sizes="(min-width: 900px) 45vw, 100vw" width="3213" height="5712" fetchpriority="high" alt="A painted swimmer poised over the edge of an abandoned pool, beneath a weathered concrete ceiling at Hotel Mir.">
+          </a>
+          <figcaption>After the Season <span>Hotel Mir, 2026</span></figcaption>
+        </figure>
+      </div>
+      <div class="season-details">
+        <div class="season-gallery-heading"><h3>A return of human presence</h3><p>Views from the project</p></div>
+        <div class="season-gallery">
+          <a href="/swim/IMG_20261007_111934_999.jpg" class="glightbox" data-gallery="after-the-season" aria-label="View the swimmer beside the pool">
+            <img src="/swim/optimized/detail-1.webp" width="1838" height="2292" loading="lazy" decoding="async" alt="Close view of the painted swimmer leaning over the pool edge, with broken windows and greenery behind.">
+          </a>
+          <a href="/swim/IMG_20261007_111952_429.jpg" class="glightbox" data-gallery="after-the-season" aria-label="View the installation from the side">
+            <img src="/swim/optimized/detail-2.webp" width="1688" height="2000" loading="lazy" decoding="async" alt="Side view of the freestanding swimmer installation on the overgrown tiled poolside.">
+          </a>
+          <a href="/swim/IMG_20261007_184427_145.jpg" class="glightbox" data-gallery="after-the-season" aria-label="View the swimmer against the tiled wall">
+            <img src="/swim/optimized/detail-3.webp" width="1440" height="1797" loading="lazy" decoding="async" alt="The painted swimmer in profile against the peeling white tiles of the abandoned pool.">
+          </a>
+        </div>
+      </div>
+    </section>
+
+  <section class="artist-introduction px-4 lg:px-8 py-14 lg:py-28" aria-labelledby="artist-title">
     <div class="mx-auto max-w-3xl">
-      <h1 class="font-semibold text-5xl text-pretty text-white sm:text-7xl tracking-tight">Polina Izvekova</h1>
-      <p class="mt-6 text-neutral-300 text-xl/8 sm:text-2xl/10">Polina Izvekova is an academic realist painter and illustrator based in Belgrade, Serbia. Her work primarily focuses on oil painting, with a specialization in themes such as architecture, urban geometry, and industrial landscapes. She delves into the visual language of everyday life, capturing the material imprint of human presence.</p>
-
-      <nav class="flex flex-wrap gap-x-4 gap-y-5 mt-8 text-xl/6">
-        <a href="/" class="bg-amber-700 hover:bg-amber-500 px-3 py-2 rounded-md text-white hover:text-white hover:text-white">Home</a>
-        <a href="/about/" class="bg-neutral-700 hover:bg-neutral-500 px-3 py-2 rounded-md text-white hover:text-white hover:text-white">About</a>
-        <a href="/projects/kiosco-1985/" class="bg-neutral-700 hover:bg-neutral-500 px-3 py-2 rounded-md text-white hover:text-white hover:text-white">Projects</a>
-      </nav>
-
+      <h1 id="artist-title" class="editorial-title">Polina Izvekova</h1>
+      <p class="intro-text">Polina Izvekova is an academic realist painter and illustrator based in Belgrade, Serbia. Her work primarily focuses on oil painting, with a specialization in themes such as architecture, urban geometry, and industrial landscapes. She delves into the visual language of everyday life, capturing the material imprint of human presence.</p>
     </div>
-  </div>
+  </section>
 
+  <div id="paintings" class="portfolio-heading"><p class="season-eyebrow">Selected work</p><h2>Paintings</h2></div>
   <div id="traditionalGallery" class="text-neutral-300 text-xl"></div>
 
   <div class="px-4 lg:px-8 pt-16 sm:pt-24 pb-8 sm:pb-12">
     <div class="mx-auto max-w-7xl">
-      <h2 class="font-semibold text-3xl text-white sm:text-5xl tracking-tight">Digital Illustrations</h2>
+      <h2 class="portfolio-title">Digital Illustrations</h2>
     </div>
   </div>
 
   <div id="digitalGallery" class="text-neutral-300 text-xl"></div>
+
+  </main>
 
   <footer>
     <div class="mx-auto px-4 lg:px-8 py-14 sm:py-24 max-w-7xl">
